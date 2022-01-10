@@ -1,0 +1,22 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showString("A")
+    basic.pause(500)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showString("B")
+    basic.pause(500)
+})
+basic.showIcon(IconNames.Happy)
+basic.pause(1000)
+basic.forever(function () {
+    basic.showNumber(1)
+    basic.pause(500)
+    basic.showNumber(2)
+    basic.pause(500)
+    basic.showNumber(3)
+    basic.pause(500)
+    basic.showNumber(4)
+    basic.pause(500)
+    basic.showNumber(5)
+    basic.pause(500)
+})
